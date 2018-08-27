@@ -1,6 +1,6 @@
 # ApiScaffold
 
-A useful Rails API generator for scaffolding. Compatible with :
+A useful Rails API generator for scaffolding. Works with : 
 - Fast JSON API/Active Model Serializers
 - Rspec/TestUnit
 - Fixtures/FactoryBot
