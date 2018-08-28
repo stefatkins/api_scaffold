@@ -44,6 +44,7 @@ If you wish to specify the api version:
 
 ## TODO
 - Nested resources 
+- GraphQL
 
 ## Contributing
 
