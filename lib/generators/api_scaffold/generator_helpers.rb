@@ -22,10 +22,6 @@ module ApiScaffold
         Gem::Specification::find_all_by_name(gem_name).any?
       end
 
-      def apipie_installed?
-        File.exists? File.join(destination_root, "config/initializers/apipie.rb")
-      end
-
       def error_serializer_created?
         File.exists? File.join(destination_root, "app/serializers/error_serializer.rb")
       end
@@ -60,10 +56,6 @@ module ApiScaffold
             ["#{name}", "@#{singular_table_name}.#{name}"]
           end
         end.sort.to_h
-      end
-
-      def apipie_param(attribute_name)
-        "param :#{attribute_name}, String, 'TODO: #{attribute_name} descrption'"
       end
     end
   end

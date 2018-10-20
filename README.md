@@ -5,7 +5,6 @@ A useful Rails API generator for scaffolding. Compatible with :
 - Rspec/TestUnit
 - Fixtures/FactoryBot
 - Api Pagination
-- Apipie
 
 ## Installation
 
